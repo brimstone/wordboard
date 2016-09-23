@@ -74,7 +74,7 @@ func main() {
 			return
 		}
 
-		data, err = merge(data, body)
+		data, err = merge(body, data)
 		if err != nil {
 			c.String(500, err.Error())
 			return
