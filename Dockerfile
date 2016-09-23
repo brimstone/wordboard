@@ -2,7 +2,7 @@ FROM scratch
 
 COPY app /
 
-COPY static /
+COPY static /static
 
 EXPOSE 8080
 
